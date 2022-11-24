@@ -191,7 +191,7 @@ def lachesis():
 
 def momentous():
     print_pause("You must choose how to use your new powers. Do you choose "
-                "to be a good monster or a bad monster.")
+                "to be a good monster or a bad monster.", 3)
     alignment = input("Please type GOOD or BAD!\n").lower()
     if alignment == "good":
         good()
